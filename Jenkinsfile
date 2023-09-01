@@ -1,6 +1,6 @@
 node {
   stage("Clone the project") {
-    git branch: 'master', url: 'https://github.com/abhitripathi273/microservices-discovery-server'
+    git branch: 'main', url: 'https://github.com/abhitripathi273/jenkins-demo'
   }
 
   stage("Compilation") {
